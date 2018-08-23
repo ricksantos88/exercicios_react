@@ -40,6 +40,6 @@ ReactDOM.render(
 );
 */
 ReactDOM.render(
-    <ClassComponent value='Componente Classe' />
+    <ClassComponent label='Contador' initialValue={10} />
     , document.getElementById('app')
 );
