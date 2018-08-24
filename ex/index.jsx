@@ -6,6 +6,7 @@ import ReactDOM from 'react-dom';
 //import Family from './ex.family/family'
 //import Member from './ex.family/member'
 import ClassComponent from '../ex/classes/classComponent';
+import Field from '../ex/classes2/Field'
 
 /*
 ReactDOM.render(<Component value="Show!" />
@@ -39,7 +40,14 @@ ReactDOM.render(
     , document.getElementById('app')
 );
 */
+/*
 ReactDOM.render(
     <ClassComponent label='Contador' initialValue={10} />
+    , document.getElementById('app')
+);
+*/
+
+ReactDOM.render(
+    <Field  initialValue='Teste' />
     , document.getElementById('app')
 );
